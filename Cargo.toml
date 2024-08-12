@@ -1,0 +1,12 @@
+[package]
+name = "cu40026"
+version = "0.1.0"
+edition = "2021"
+description = "A simple display driver for the CU40026 vacuum fluorescent display (VFD)"
+repository = "https://github.com/Orange-Murker/cu40026"
+license = "MIT OR Apache-2.0"
+keywords = ["CU40026", "display", "driver"]
+categories = ["embedded", "no-std"]
+
+[dependencies]
+embedded-io = "0.6.1"
